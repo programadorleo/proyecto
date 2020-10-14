@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutorial Html5</title>
+    <title>Mi Tutorial de Html5</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>
-        <h1> Conceptos Basicos en Html5</h1>
+    <header id="cabeceraweb">
+        <h1> Mi Tutorial de Html5</h1>
         <h2>Html5 = HTML + CSS + JavaScript </h2>
     </header>
 
     <nav>
         <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>JavaScript</li>
+            <li> <a href="#html">html</a> </li>
+            <li> <a href="#css">css</a> </li>
+            <li> <a href="#js">JavaScript </a> </li>
         </ul>
     </nav>
 
@@ -25,7 +26,14 @@
         <blockquote>javaScript </blockquote>
     </aside>
 
-    <h3> Html: Lenguajes de etiquetas,todo va dentro de etiquetas </h3>
+    <h2 id="html" >Html</h2>
+
+    <figure>
+        <img src="img/teclado.jpg" alt="imagen teclado" width="300" >
+        <figcaption>Teclado </figcaption>
+    </figure>
+
+    <h3> ¿Que es html? Html es un Lenguajes de etiquetas,todo va dentro de etiquetas </h3>
 
     <section>
         <p>
@@ -46,14 +54,114 @@
         <h4> nav: barra de navegacion  </h4>
         <h4> aside : barra lateral</h4>
         <h4> aticle : para agrupar contenido similar </h4>
+        <h4> figuere: insertar imagen</h4>
+        <h4> img</h4>
+         <h4> figcaption: agrega texto al pie de la imagen</h4>
         <h4>footer: pie parrafo</h4>
 
+        <h5>mark: marca texto sin importancia ni enfasis</h5>
+        <h5>em : Para indicar enfasis, sustituye a etiqueta i</h5>
+        <h5>strong: marca un texto importante</h5>
+        <h5>small: presentar textos legales</h5>
+        <h5>cite: titulos de libros, canciones pelicular etc</h5>
+        <h5>addres: informacion de contact,debe ir en footer</h5>
+        <h5>time: representa fechas y horas </h5>
     </section>
 
     
-    
+    <h2 id="css">CSS</h2>
 
+    <h2>CSS: Dar estilos a los documentos html</h2>
+
+<h2>Modelo caja-contenedor</h2>
+<p>
+<h3>Etiquetas block</h3>
+</p>
+<p>Las etiquetas block ocupan el 100% del ancho de la pantall</p>
+<h3>Etiquetas inline</h3>
+<p>Las etiquetas inline se colocan una al costado de la otra</p>
+
+<h3>Margin Padding Border</h3>
+
+<figure>
+    <img src="img/marginpadingborder.png" alt="Marging Padding Border">
+</figure>
+
+<h4>Margin: Espacio de la caja desde el borde al exterior</h4>
+<h4>Padding: Espacio de la caja desde el borde hacia el interior</h4>
+<h4>Border: El limite de la caja</h4>
+
+   <p name="miselementos">
+    Es una etiqueta de bloque y la paso a linea. 
+       li{             
+           display:inline
+       }
+   </p>
+
+   <p>
+       aside{
+           float:left;
+       }
+   </p>
+<h4>Tipos de selectores: etiqueta, id, clase</h4>
+
+<h5>Etiqueta</h5>
+<p class="css">
+    body{
+        propiedad:valor;
+        background-color:#00f;      
+    }
+</p>
+
+<h5>id: un unico documento</h5>
+<p class="css">
+    id="cabeceraweb" en html 
     
+    #cabeceraweb{
+        background-color:red;
+    }                en css
+</p>
+
+<h5>Clase </h5>
+    <p class="css">
+     class="css"
+
+     .css{
+         color:gold;
+     }
+    </p>
+
+<p>
+p[name="miselementos"]{
+    color:red;
+}
+</p>
+
+<h4>Pseudoclases</h4>
+<p>
+    p:nth:child(2){
+        color:blue;
+    }
+</p>
+
+<h4>Centrar elementos</h4>
+<p> 
+   #cabeceraweb{
+       text-align:center; centra dentro del contenedor <br>
+       margin:15 px auto; lo centra en su padre <br>
+       padding: 15px; 15 px por todos los costados <br>
+   } 
+</p>
+
+<h4>Border</h4>
+ #cabeceraweb{
+    border:3px solid #f00;  tamaño tipo color <br>
+    border-radius: 20px 5px 15px 40px; redondeado <br>
+    box-shadow: #999 45px 5px 10px; sombra color derecha abajo difuminado <br>
+}
+
+<h2 id="js" >JavaScript </h2>
+
 <footer>Derechos reservados </footer>
     
 </body>

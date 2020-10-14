@@ -4,3 +4,73 @@
     padding:0;
     box-sizing: border-box;
 }
+
+body{
+    margin:10px;
+    background-color:darkseagreen;
+}
+
+#cabeceraweb{
+    background-color:aqua;
+    width: 500px;
+    text-align: center;
+    margin: 15px auto;
+    padding: 15px;
+    border:3px solid chocolate;
+    border-radius: 20px 5px 15px 40px; 
+    box-shadow: #999 45px 5px 5px;
+}
+
+nav{
+    text-align: center;
+    margin: 10px auto;
+    width: 50%;
+    
+}
+
+
+li{
+  font-size: 30px;
+  font-style: bold;
+  display: inline;
+  background-color:blue;
+  border: 2px solid dimgrey;
+  margin: 0 5px;
+  padding: 3px;
+  text-align: center;
+  box-shadow: #999 10px 5px 5px;
+}
+
+li a{
+    text-decoration: none;
+}
+aside{
+    float: right;
+    height: 600px;
+}
+
+.css{
+    color:gold;
+}
+
+p[name="miselementos"]{
+    color:red;
+}
+
+h2{
+    margin:0 10px ;
+}
+
+
+h3:nth-child(1){
+    margin:0 20px ;
+    color: black;
+}
+
+h4{
+    margin:0 40px ;
+}
+
+p{
+    margin:0 80px;
+}

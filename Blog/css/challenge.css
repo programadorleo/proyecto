@@ -1,0 +1,11 @@
+table{
+    table-layout: auto;
+    width: 30%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+th{
+    border: 1px solid black;
+    overflow: hidden;
+    
+}
