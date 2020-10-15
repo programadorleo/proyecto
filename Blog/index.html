@@ -9,14 +9,14 @@
 <body>
     <header id="cabeceraweb">
         <h1> Mi Tutorial de Html5</h1>
-        <h2>Html5 = HTML + CSS + JavaScript </h2>
+        <h2 id="titulo">Html5 = HTML + CSS + JavaScript </h2>
     </header>
 
     <nav>
         <ul>
             <li> <a href="#html">html</a> </li>
             <li> <a href="#css">css</a> </li>
-            <li> <a href="#js">JavaScript </a> </li>
+            <li> <a href="#js">javascript </a> </li>
         </ul>
     </nav>
 
@@ -26,19 +26,24 @@
         <blockquote>javaScript </blockquote>
     </aside>
 
-    <h2 id="html" >Html</h2>
-
+   
     <figure>
-        <img src="img/teclado.jpg" alt="imagen teclado" width="300" >
-        <figcaption>Teclado </figcaption>
+        <img src="img/html5.jpg" alt="logo html" width="300" >
+        <figcaption>Html5 </figcaption>
     </figure>
 
-    <h3> ¿Que es html? Html es un Lenguajes de etiquetas,todo va dentro de etiquetas </h3>
+    <h2 id="html" >Html</h2>
 
-    <section>
+    <h3> ¿Que es html? Html es un Lenguajes de etiquetas,todo va dentro de etiquetas (<>) . Es el encargado de la estructura de una página Web </h3>
+
+    <p>Se divide en dos grandes grupos head y body.
+        En el head se encuentra los archivos css, javascript, titulo, etiquetas meta
+        lo que se ubica aca no se refleja en la pagina. 
+        Body van las etiquetas que se van a ver en nuestra pagina.</p>
+    
+        <section>
         <p>
-            <h3>Head: En el head van los archivos css, javaScript , etiquetas meta 
-                titulo, iconos 
+            <h3> Dentro de head se pueden ingresar:
             </h3>
             <h4>Title: cambia el texto en la pestaña del navegador, es importante para 
                 posicionarse en los buscadores.</h4>
@@ -48,9 +53,11 @@
     </section>
 
     <section>
-        <h3>Body: Lo que se ve en la pagina </h3>
-        <h3>Body : header nav aside section article footer </h3>
-        <h4>header : cabecera puede ir el titulo de nuestra pagina  </h4>
+        <h3> En el body va: </h3>
+        <figure>
+            <img src="img/estructura.jpg" alt="estructura body">
+        </figure>
+        <h4>header : Es la cabecera puede ir el titulo de nuestra pagina  </h4>
         <h4> nav: barra de navegacion  </h4>
         <h4> aside : barra lateral</h4>
         <h4> aticle : para agrupar contenido similar </h4>
@@ -69,35 +76,26 @@
     </section>
 
     
+  
+
+  <section>
+
     <h2 id="css">CSS</h2>
 
-    <h2>CSS: Dar estilos a los documentos html</h2>
-
-<h2>Modelo caja-contenedor</h2>
-<p>
-<h3>Etiquetas block</h3>
-</p>
-<p>Las etiquetas block ocupan el 100% del ancho de la pantall</p>
-<h3>Etiquetas inline</h3>
-<p>Las etiquetas inline se colocan una al costado de la otra</p>
-
-<h3>Margin Padding Border</h3>
-
-<figure>
-    <img src="img/marginpadingborder.png" alt="Marging Padding Border">
-</figure>
-
-<h4>Margin: Espacio de la caja desde el borde al exterior</h4>
-<h4>Padding: Espacio de la caja desde el borde hacia el interior</h4>
-<h4>Border: El limite de la caja</h4>
-
+    <h3>CSS va a dar estilos a los documentos html</h3> 
+     <h4>Sintaxis</h4>
+    <p>
+        selector {   <br>
+            propiedad: valor; <br>
+        }
+    </p>
    <p name="miselementos">
     Es una etiqueta de bloque y la paso a linea. 
        li{             
            display:inline
        }
    </p>
-
+   
    <p>
        aside{
            float:left;
@@ -154,13 +152,46 @@ p[name="miselementos"]{
 </p>
 
 <h4>Border</h4>
- #cabeceraweb{
+ <p> #cabeceraweb{
     border:3px solid #f00;  tamaño tipo color <br>
     border-radius: 20px 5px 15px 40px; redondeado <br>
     box-shadow: #999 45px 5px 10px; sombra color derecha abajo difuminado <br>
-}
+}</p> 
+
+    <h4>Fuente</h4>
+ <p>  h1 {
+        font: bold 20px verdana, sans-serif;} <br>
+        fuente: tipo tamaño letra;
+        
+ </p> 
+
+</section>  
+
+<section>
+
+    <h3>Modelo caja-contenedor</h3>
+<p>
+<h3>Etiquetas block</h3>
+</p>
+<p>Las etiquetas block ocupan el 100% del ancho de la pantall</p>
+<h3>Etiquetas inline</h3>
+<p>Las etiquetas inline se colocan una al costado de la otra</p>
+
+<h3>Margin Padding Border</h3>
+
+<figure>
+    <img src="img/marginpadingborder.png" alt="Marging Padding Border">
+</figure>
+
+<h4>Margin: Espacio de la caja desde el borde al exterior</h4>
+<h4>Padding: Espacio de la caja desde el borde hacia el interior</h4>
+<h4>Border: El limite de la caja</h4>
+</section>
+
+<section>
 
 <h2 id="js" >JavaScript </h2>
+</section>
 
 <footer>Derechos reservados </footer>
     
