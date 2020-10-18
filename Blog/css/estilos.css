@@ -53,6 +53,12 @@ li:hover{
     background-color:blue;
    
 }
+figure{
+  margin: 30px;  
+}
+figcaption{
+    margin: 0 0 0 200px;
+}
 
 li a{
     text-decoration: none;
